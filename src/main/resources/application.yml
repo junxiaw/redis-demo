@@ -1,0 +1,11 @@
+spring:
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      pass:
+      timeout: 100000
+      maxActive: 20
+      maxIdle: 5
+      maxWait: 1000
+      testOnBorrow: true
